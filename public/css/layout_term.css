@@ -1,0 +1,125 @@
+#contents .c_terms {display:block; box-sizing:border-box; overflow:hidden; width:100%; margin-top:67px; padding:0 0 100px;}
+#contents .c_terms .wrap {display:block;}
+#contents .c_terms .ct_nav {display:block; box-sizing:border-box; margin-top:80px; border-bottom:2px solid #CBCFD8;}
+#contents .c_terms .ct_nav ul {display:flex;}
+#contents .c_terms .ct_nav li a {display:block; margin-bottom:-2px; box-sizing:border-box; padding:0 10px 8px; font-size:18px; font-weight:500; line-height:24px; word-break:keep-all;}
+#contents .c_terms .ct_nav li a.ctn_terms {border-bottom:2px solid #000;}
+#contents .c_terms .ct_nav li a.ctn_privacy {color:#8C9196; transition:0.3s; border-bottom:2px solid #CBCFD8;}
+#contents .c_terms .ct_nav li a.ctn_privacy:hover {border-color:#000; color:#000;}
+#contents .c_terms .ct_title {display:block; margin-top:45px; font-family:"Pretendard", sans-serif; font-size:32px; font-weight:600; line-height:38px; word-break:keep-all;}
+#contents .c_terms section {margin-top:60px;}
+#contents .c_terms section + section {margin-top:45px;}
+#contents .c_terms section a:hover {text-decoration:underline; text-underline-position:under;}
+#contents .c_terms section h3 {font-family:"Pretendard", sans-serif; font-size:20px; font-weight:600; line-height:24px; word-break:keep-all;}
+#contents .c_terms section h3 + p,
+#contents .c_terms section h3 + ol {margin-top:10px;}
+#contents .c_terms section p,
+#contents .c_terms section li,
+#contents .c_terms section span {font-family:"Pretendard", sans-serif; font-size:16px; font-weight:400; line-height:24px; word-break:keep-all;}
+#contents .c_terms section ol ol {box-sizing:border-box; padding:10px 0; padding-left:2px;}
+#contents .c_terms section ol li {position:relative; box-sizing:border-box; padding-left:25px;}
+#contents .c_terms section ol ol li {padding-left:20px;}
+#contents .c_terms section ol li span {position:absolute; top:0; left:6px;}
+#contents .c_terms section ol li span.tensplace {left:0;}
+#contents .c_terms section ol ol li span {top:0; left:0;}
+#contents .c_terms section table {width:100%; margin-top:40px; border-top:1px solid #000; border-left:1px solid #000;}
+#contents .c_terms section table thead {width:100%;}
+#contents .c_terms section table thead tr th {width:33.3333%; border-bottom:1px solid #000; border-right:1px solid #000; background-color:#D9D9D9; font-family:"Pretendard", sans-serif; font-size:18px; font-weight:300; line-height:42px; text-align:center; word-break:keep-all;}
+#contents .c_terms section table tbody {width:100%;}
+#contents .c_terms section table tbody tr th,
+#contents .c_terms section table tbody tr td {border-bottom:1px solid #000; border-right:1px solid #000; font-family:"Pretendard", sans-serif; font-size:18px; font-weight:300; line-height:42px; text-align:center; word-break:keep-all;}
+
+
+
+
+
+@media (max-width:1024px) {
+	#contents .c_terms .ct_nav li a {padding:0 10px 8px; font-size:18px; line-height:24px;}
+	#contents .c_terms .ct_title {margin-top:45px; font-size:32px; line-height:38px;}
+	#contents .c_terms section {margin-top:60px;}
+	#contents .c_terms section + section {margin-top:45px;}
+	#contents .c_terms section h3 {font-size:20px; line-height:24px;}
+	#contents .c_terms section h3 + p,
+	#contents .c_terms section h3 + ol {margin-top:10px;}
+	#contents .c_terms section p,
+	#contents .c_terms section li,
+	#contents .c_terms section span {font-size:16px; font-weight:400; line-height:24px;}
+	#contents .c_terms section ol ol {padding:10px 0; padding-left:2px;}
+	#contents .c_terms section ol li {padding-left:25px;}
+	#contents .c_terms section ol ol li {padding-left:20px;}
+	#contents .c_terms section ol li span {left:6px;}
+	#contents .c_terms section table {margin-top:40px;}
+	#contents .c_terms section table thead tr th {font-size:18px; line-height:42px;}
+	#contents .c_terms section table tbody tr th,
+	#contents .c_terms section table tbody tr td {font-size:18px; line-height:42px;}
+}
+
+
+
+
+
+@media (max-width:768px) {
+	#contents .c_terms {margin-top:65px; padding:0 0 80px;}
+	#contents .c_terms .ct_nav {margin-top:60px;}
+	#contents .c_terms .ct_nav li a {padding:0 8px 6px; font-size:16px; line-height:20px;}
+	#contents .c_terms .ct_title {margin-top:40px; font-size:28px; line-height:34px;}
+	#contents .c_terms section {margin-top:50px;}
+	#contents .c_terms section + section {margin-top:40px;}
+	#contents .c_terms section h3 {font-size:18px; line-height:20px;}
+	#contents .c_terms section h3 + p,
+	#contents .c_terms section h3 + ol {margin-top:8px;}
+	#contents .c_terms section p,
+	#contents .c_terms section li,
+	#contents .c_terms section span {font-size:14px;  line-height:20px;}
+	#contents .c_terms section ol ol {padding:8px 0; padding-left:2px;}
+	#contents .c_terms section ol li {padding-left:22px;}
+	#contents .c_terms section ol ol li {padding-left:18px;}
+	#contents .c_terms section ol li span {left:5px;}
+	#contents .c_terms section table {margin-top:35px;}
+	#contents .c_terms section table thead tr th {padding:8px 10px; font-size:16px; line-height:23px;}
+	#contents .c_terms section table tbody tr th,
+	#contents .c_terms section table tbody tr td {padding:8px 10px; font-size:16px; line-height:23px;}
+}
+
+
+
+
+
+@media (max-width:600px) {
+	#contents .c_terms .ct_nav {margin-top:50px;}
+	#contents .c_terms .ct_nav li a {padding:0 7px 6px; font-size:14px;}
+	#contents .c_terms .ct_title {margin-top:34px; font-size:24px; line-height:30px;}
+	#contents .c_terms section {margin-top:45px;}
+	#contents .c_terms section + section {margin-top:34px;}
+	#contents .c_terms section h3 {font-size:16px;}
+	#contents .c_terms section h3 + p,
+	#contents .c_terms section h3 + ol {margin-top:7px;}
+	#contents .c_terms section ol ol {padding:7px 0; padding-left:2px;}
+	#contents .c_terms section ol li {padding-left:20px;}
+	#contents .c_terms section ol ol li {padding-left:15px;}
+	#contents .c_terms section ol li span.tensplace {left:-1px;}
+	#contents .c_terms section table {margin-top:30px;}
+	#contents .c_terms section table thead tr th {padding:6px 4px; font-size:14px; line-height:20px;}
+	#contents .c_terms section table tbody tr th,
+	#contents .c_terms section table tbody tr td {padding:6px 4px; font-size:14px; line-height:20px;}
+}
+
+
+
+
+
+@media (max-width:425px) {
+	#contents .c_terms .ct_nav li a {padding:0 7px 5px;}
+	#contents .c_terms .ct_nav li a.ctn_privacy {transition:0.3s;}
+	#contents .c_terms .ct_title {margin-top:30px; font-size:22px; line-height:26px;}
+	#contents .c_terms section {margin-top:40px;}
+	#contents .c_terms section + section {margin-top:30px;}
+	#contents .c_terms section ol ol {padding:6px 0;}
+	#contents .c_terms section ol li {padding-left:16px;}
+	#contents .c_terms section ol ol li {padding-left:14px;}
+	#contents .c_terms section ol li span {left:4px;}
+	#contents .c_terms section table {margin-top:25px;}
+	#contents .c_terms section table thead tr th {padding:5px 4px; font-size:12px; line-height:18px;}
+	#contents .c_terms section table tbody tr th,
+	#contents .c_terms section table tbody tr td {padding:5px 4px; font-size:12px; line-height:18px;}
+}

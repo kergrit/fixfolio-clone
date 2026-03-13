@@ -1,0 +1,143 @@
+/* title */
+.title {font-size:58px; line-height:68px;}
+.title.t1 {font-size:52px; line-height:62px;}
+
+.form .f_comment.t1 {margin-top:0; padding-left:30px; justify-content:flex-start;}
+
+.pop.event .pe_title b {font-size:33px; line-height:43px;}
+.pop.event .btn i {left:calc(50% + 135px);}
+.pop.event .btn:hover i {left:calc(50% + 155px);}
+
+
+#fullpage .agent .f_agent .fa_info .fai_content .btn {max-width:305px;}
+#fullpage .agent .f_agent .fa_info .fai_content strong {font-size:46px; line-height:52px;}
+#fullpage .introduce .f_introduce .fi_title .btn br {display:none;}
+#fullpage .charge .f_charge .fc_list .fcl_box .btn.inquery i {left:calc(50% + 60px);}
+#fullpage .charge .f_charge .fc_list .fcl_box .btn.inquery:hover i {left:calc(50% + 70px);}
+
+
+@media (max-width:1680px) {
+    /* title */
+    .title {font-size:45px; line-height:55px;}
+    .title.t1 {font-size:38px; line-height:48px;}
+
+    #fullpage .agent .f_agent .fa_info .fai_content strong {font-size:40px; line-height:50px;}
+}
+
+
+
+
+
+@media (max-width:1440px) {
+    /* title */
+    .title {font-size:40px; line-height:50px;}
+    .title.t1 {font-size:35px; line-height:45px;}
+
+    .pop.event .btn i {left:calc(50% + 115px);}
+    .pop.event .btn:hover i {left:calc(50% + 135px);}
+
+    #fullpage .agent .f_agent .fa_info .fai_content strong {font-size:33px; line-height:43px;}
+}
+
+
+
+
+@media (max-width:1280px) {
+    /* title */
+    .title {font-size:35px; line-height:45px;}
+    .title.t1 {font-size:35px; line-height:45px;}
+
+
+    #fullpage .agent .f_agent .fa_info .fai_content strong {font-size:29px; line-height:39px;}
+}
+
+
+
+
+
+@media (min-width: 1025px) and (max-height: 900px) {
+    .title {font-size:clamp(1px,5.2vh,64px) !important; line-height:clamp(1px,6.2vh,72px) !important;}
+}
+
+
+
+
+
+@media (max-width:1024px) {
+    #fullpage .point .f_point strong.big {font-size:4vw; line-height:4.5vw;}
+}
+
+
+
+
+
+@media (max-width:768px) {
+    /* title */
+    .title {font-size:31px; line-height:36px; letter-spacing:-0.5px;}
+    .title.t1 {font-size:35px; line-height:42px;}
+
+    .form .f_comment.t1 {padding-left:20px;}
+    .form .f_filed .ff_radiobox.t2 {row-gap:0; column-gap:15px;}
+
+    .pop.event .pe_title b {font-size:20px; line-height:25px;}
+    .pop.event .btn i {left:calc(50% + 85px);}
+    .pop.event .btn:hover i {left:calc(50% + 100px);}
+
+    #fullpage .introduce .f_introduce .fi_title .btn {height:auto; padding-top:4px !important; padding-bottom:4px !important; line-height:22px;}
+    #fullpage .introduce .f_introduce .fi_title .btn br {display:block;}
+
+    #fullpage .point .f_point strong.big {font-size:8vw; line-height:9.066vw;}
+
+    #fullpage .charge .f_charge .fc_list .fcl_box .btn.inquery i {left:calc(50% + 30px);}
+    #fullpage .charge .f_charge .fc_list .fcl_box .btn.inquery:hover i {left:calc(50% + 50px);}
+}
+
+
+
+
+
+@media (max-width:425px) {
+    .pop.event .btn i {left:calc(50% + 55px);}
+    .pop.event .btn:hover i {left:calc(50% + 75px);}
+
+    #fullpage .agent .f_agent .fa_title .title {font-size:24px;}
+    #fullpage .introduce .f_introduce .btn {padding:0 30px;}
+    #fullpage .introduce .f_introduce .btn:hover {padding-left:23px; padding-right:37px;}
+    #fullpage .charge .f_charge .fc_list .fcl_info ul li {height:auto; min-height:18px;}
+}
+
+
+
+
+
+@media (max-width:370px) {
+    /* title */
+    .title {font-size:28px; line-height:34px;}
+    .title.t1 {font-size:32px; line-height:40px;}
+
+
+    #fullpage .agent .f_agent .fa_title .title {font-size:21px; line-height:29px;}
+    #fullpage .agent .f_agent .fa_box .fa_info .fai_content .btn.middle {font-size:12px;}
+    #fullpage .charge .f_charge .fc_list .fcl_info .fcli_box + .fcli_box {height:126px;}
+}
+
+
+
+
+
+
+@media (min-width:1921px)  {
+    .pop.event .pe_title b{font-size:clamp(33px,1.72vw,45px);line-height:clamp(43px,2.24vw,55px);}
+
+    #fullpage .agent .f_agent .fa_info .fai_content .btn {max-width:clamp(305px,15.88vw,385px);}
+    #fullpage .agent .f_agent .fa_info .fai_content strong {font-size: clamp(46px, 2.5vw, 74px); line-height:clamp(52px, 2.9vw, 82px);}
+}
+
+
+
+
+
+@media (min-width: 1921px) and (min-height: 1080px) {
+    .title {font-size:clamp(58px, 5.37vh, 3vw); line-height: clamp(68px, 6.29vh, 3.5vw);}
+    .title.t1{font-size:clamp(52px,5vh,2.7vw);line-height:clamp(62px,5.9vh,3.5vw);}
+}
